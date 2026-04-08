@@ -2,7 +2,7 @@ package encapsulacion;
 
 public class Main {
 	public static void main(String [] Args) {
-		ejercicio1();
+		ejercicio2();
 	}
 	
 	static void ejercicio1() {
@@ -17,5 +17,17 @@ public class Main {
 		p1.setEdad(-15);
 		
 		p1.mostrar();
+	}
+	
+	static void ejercicio2() {
+		Producto p1 = new Producto("001","Manzana",500,15);
+		
+		System.out.println(p1);
+		
+		p1.vender(9);
+		
+		System.out.println(p1);
+		
+		p1.vender(9);
 	}
 }
