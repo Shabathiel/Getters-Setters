@@ -2,7 +2,7 @@ package encapsulacion;
 
 public class Main {
 	public static void main(String [] Args) {
-		ejercicio3();
+		ejercicio4();
 	}
 	
 	static void ejercicio1() {
@@ -37,5 +37,11 @@ public class Main {
 		b1.retirar(500, "1234");
 		
 		b1.retirar(500, "4321");
+	}
+	
+	static void ejercicio4() {
+		Curso c1 = new Curso("Etica",70,80,59);
+		
+		System.out.println(c1.estado());
 	}
 }
