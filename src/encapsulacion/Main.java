@@ -2,7 +2,7 @@ package encapsulacion;
 
 public class Main {
 	public static void main(String [] Args) {
-		ejercicio5();
+		ejercicio6();
 	}
 	
 	static void ejercicio1() {
@@ -50,5 +50,16 @@ public class Main {
 		
 		if(e1.esBecado()) System.out.println("El estudiante es becado");
 		else System.out.println("El estudiante no es becado.");
+	}
+	static void ejercicio6() {
+		Termometro t1 = new Termometro(20.0);
+		
+		System.out.println(t1);
+		
+		System.out.println("Fahrenheit: " + t1.getFahrenheit());
+		
+		t1.setCelcius(-300.0);
+		
+		System.out.println(t1);
 	}
 }
