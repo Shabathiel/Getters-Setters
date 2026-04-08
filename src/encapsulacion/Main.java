@@ -2,7 +2,7 @@ package encapsulacion;
 
 public class Main {
 	public static void main(String [] Args) {
-		ejercicio2();
+		ejercicio3();
 	}
 	
 	static void ejercicio1() {
@@ -29,5 +29,13 @@ public class Main {
 		System.out.println(p1);
 		
 		p1.vender(9);
+	}
+	
+	static void ejercicio3() {
+		CuentaBancaria b1 = new CuentaBancaria("Jose", 1500, "1234");
+		
+		b1.retirar(500, "1234");
+		
+		b1.retirar(500, "4321");
 	}
 }
