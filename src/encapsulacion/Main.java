@@ -2,7 +2,7 @@ package encapsulacion;
 
 public class Main {
 	public static void main(String [] Args) {
-		ejercicio4();
+		ejercicio5();
 	}
 	
 	static void ejercicio1() {
@@ -43,5 +43,12 @@ public class Main {
 		Curso c1 = new Curso("Etica",70,80,59);
 		
 		System.out.println(c1.estado());
+	}
+	
+	static void ejercicio5() {
+		Estudiante e1 = new Estudiante("0905", "Jose",90);
+		
+		if(e1.esBecado()) System.out.println("El estudiante es becado");
+		else System.out.println("El estudiante no es becado.");
 	}
 }
