@@ -2,7 +2,7 @@ package encapsulacion;
 
 public class Main {
 	public static void main(String [] Args) {
-		ejercicio8();
+		ejercicio9();
 	}
 	
 	static void ejercicio1() {
@@ -80,5 +80,19 @@ public class Main {
 	static void ejercicio8() {
 		Contacto c1 = new Contacto("Jose", "81581509", "chema@gmail.com");
 		c1.mostrarContacto();
+	}
+	
+	static void ejercicio9() {
+		Jugador j1 = new Jugador("Juan", -100, 1000);
+		
+		System.out.println(j1);
+		
+		j1.actualizarPuntaje(900);
+		
+		System.out.println(j1);
+		
+		j1.actualizarPuntaje(10000);
+		
+		System.out.println(j1);
 	}
 }
