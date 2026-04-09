@@ -9,9 +9,7 @@ public class Estudiante {
 		this.nombre = n;
 		if(p >100 || p < 0) {
 			this.promedio = 0;
-			return;
-		}
-		this.promedio = p;
+		}else this.promedio = p;
 	}
 	
 	public boolean esBecado() {

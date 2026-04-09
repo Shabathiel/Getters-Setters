@@ -2,7 +2,7 @@ package encapsulacion;
 
 public class Main {
 	public static void main(String [] Args) {
-		ejercicio6();
+		ejercicio7();
 	}
 	
 	static void ejercicio1() {
@@ -61,5 +61,19 @@ public class Main {
 		t1.setCelcius(-300.0);
 		
 		System.out.println(t1);
+	}
+	
+	static void ejercicio7() {
+		Reloj r1 = new Reloj(12,25,30);
+		
+		r1.mostrarHora();
+		
+		r1.setMinuto(7);
+		
+		r1.mostrarHora();
+		
+		r1.setHora(89);
+		
+		r1.mostrarHora();
 	}
 }
