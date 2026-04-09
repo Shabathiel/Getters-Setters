@@ -2,7 +2,7 @@ package encapsulacion;
 
 public class Main {
 	public static void main(String [] Args) {
-		ejercicio7();
+		ejercicio8();
 	}
 	
 	static void ejercicio1() {
@@ -75,5 +75,10 @@ public class Main {
 		r1.setHora(89);
 		
 		r1.mostrarHora();
+	}
+	
+	static void ejercicio8() {
+		Contacto c1 = new Contacto("Jose", "81581509", "chema@gmail.com");
+		c1.mostrarContacto();
 	}
 }
