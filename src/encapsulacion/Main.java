@@ -2,7 +2,7 @@ package encapsulacion;
 
 public class Main {
 	public static void main(String [] Args) {
-		ejercicio9();
+		ejercicio10();
 	}
 	
 	static void ejercicio1() {
@@ -94,5 +94,10 @@ public class Main {
 		j1.actualizarPuntaje(10000);
 		
 		System.out.println(j1);
+	}
+	
+	static void ejercicio10() {
+		Factura f1 = new Factura("001","Manzana",15,5);
+		f1.mostrarFactura();
 	}
 }
